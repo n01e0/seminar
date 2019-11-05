@@ -1,16 +1,4 @@
-#include <fcntl.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <unistd.h>
-
-typedef struct file_struct {
-    int fd;
-    char *buf;
-    const char *path;
-    
-}
 
 int main(int argc, char *argv[]) {
     if (argc < 2)
